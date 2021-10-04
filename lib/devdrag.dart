@@ -1,4 +1,4 @@
-import 'package:drag_and_drop_gridview/gridorbiter.dart';
+import 'package:drag_drop_gridview/gridorbiter.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
@@ -47,7 +47,7 @@ class DragAndDropGridView extends MainGridView {
         ScrollViewKeyboardDismissBehavior.manual,
     WidgetPositionBuilder? feedback,
     WidgetPositionBuilder? childWhenDragging,
-  })  : super(
+  }) : super(
           key: key,
           reverse: reverse,
           header: header,
@@ -114,7 +114,7 @@ class DragAndDropGridView extends MainGridView {
         ScrollViewKeyboardDismissBehavior.manual,
     WidgetPositionBuilder? feedback,
     WidgetPositionBuilder? childWhenDragging,
-  })  : super(
+  }) : super(
           key: key,
           reverse: reverse,
           itemBuilder: itemBuilder,
@@ -200,7 +200,7 @@ class DragAndDropGridView extends MainGridView {
         ScrollViewKeyboardDismissBehavior.manual,
     WidgetPositionBuilder? feedback,
     WidgetPositionBuilder? childWhenDragging,
-  })  : super(
+  }) : super(
           key: key,
           reverse: reverse,
           itemBuilder: itemBuilder,
@@ -293,7 +293,7 @@ class DragAndDropGridView extends MainGridView {
         ScrollViewKeyboardDismissBehavior.manual,
     WidgetPositionBuilder? feedback,
     WidgetPositionBuilder? childWhenDragging,
-  })  : super(
+  }) : super(
             key: key,
             reverse: reverse,
             itemBuilder: itemBuilder,
